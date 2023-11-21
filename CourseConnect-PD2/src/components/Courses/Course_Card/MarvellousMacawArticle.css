@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
+
+.card-container{
+  display: flex;
+  justify-content: center;
+}
+
+.square:hover {
+    -webkit-transform: translate(20px, -10px);
+    -ms-transform: translate(10px, -10px);
+    transform: translate(10px, -10px);
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+     }
+
+
+.square{
+  width: 360px;
+	min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+	background: white;
+  border-radius: 4px;
+  box-shadow: 0px 20px 50px #D9DBDF;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; 
+}
+
+.mask{
+  clip: rect(0px, 460px, 220px, 0px);
+  border-radius: 4px;
+  position: absolute;
+}
+
+.square  img{
+  width: 360px;
+  height: 200px;
+  object-fit: contain;
+  }
+
+.h1{
+  margin: auto;
+  text-align: left;
+  margin-top: 240px;
+  padding-left: 30px;
+  
+  font-family: 'Merriweather', serif;
+  font-size: 24px;
+}
+.courseCard-desc{
+ text-align: justify; 
+ padding-left: 30px;
+ padding-right: 30px;
+ font-family: 'Open Sans', sans-serif;
+ font-size: 12px;
+ color: black;
+ line-height: 18px;
+}
+
+.button {
+    background-color: #3EDD84;
+    color: white;
+    width: 90px;
+    margin-bottom: 10px;
+    padding: 10px 18px;
+    border-radius: 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 10px;
+    cursor: pointer;
+    font-family: 'merriweather';
+}
+.link-title{
+  color: #FF0063;
+}
+.link-title:hover{
+  color: blue;
+}
+
+@media screen and (max-width:1308px) {
+  .square{
+    width: 300px;
+    min-height: 415px;
+  }
+  .square img{
+    width: 300px;
+  }
+}
+
+@media screen and (max-width:1122px) {
+  .square{
+    width: 360px;
+    min-height: 450px;
+  }
+  .square img{
+    width: 360px;
+  }
+}
+@media screen and (max-width:850px) {
+  .square{
+    width: 300px;
+    min-height: 415px;
+  }
+  .square img{
+    width: 300px;
+  }
+}
+@media screen and (max-width:729px) {
+  .square{
+    width: 400px;
+    min-height: 450px;
+  }
+  .square img{
+    width: 400px;
+  }
+}
+@media screen and (max-width:460px) {
+  .square{
+    width: 300px;
+    min-height: 450px;
+  }
+  .square img{
+    width: 300px;
+  }
+}

@@ -1,0 +1,24 @@
+.course_container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.explore-wrapper{
+    margin-bottom: 50px;
+    /* height: 100vh; */
+}
+
+
+@media screen and (max-width:1122px) {
+    .course_container{
+        grid-template-columns: auto auto;
+    }
+}
+@media screen and (max-width:729px) {
+    .course_container{
+        grid-template-columns: auto ;
+    }
+}

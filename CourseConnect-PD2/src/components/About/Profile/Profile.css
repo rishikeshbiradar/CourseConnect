@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,
+body {
+    font-family: 'Numans', sans-serif;
+}
+
+.profileCard
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.profileImage {
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+    padding: 20px;
+    transition-duration: 300ms;
+}
+.profileImage:hover{
+    transform:scale(1.1);
+    border:none;
+}
+
+.profileHeading {
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #d6249f;
+}
+.profileHeading:hover{
+    color: black;
+}
+
+.profileLinks a {
+    margin: 17px;
+    margin-top: 5px;
+}
+
+.linkedin {
+    color: darkblue
+}
+
+.github {
+    color: white;
+}
+
+.browser {
+    color: rgb(7, 4, 4)
+}
+
+.instagram {
+    display: inline-block;
+    height: 20px;
+    color: #8f2140;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.profileLinks img{
+    max-height: 25px;
+}
+
+@media screen and (max-width:250px){
+    .profileLinks img{
+        width: 15px;
+    }
+
+    .profileImage{
+        height: 180px;
+        width: 180px;
+    }
+}

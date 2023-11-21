@@ -1,0 +1,28 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Monoton&family=Pacifico&family=Poppins&family=Ubuntu&family=VT323&display=swap');
+
+
+.platformNo{
+    width: 262.5px;
+    height: 121.6px;
+    border: 5px solid white;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fdfdfd;
+}
+
+.platformNo:hover{
+    transform: scale(1.1);
+}
+
+#number_of_courses{
+    font-size: 4rem;
+    font-family: 'Monoton', cursive;}
+
+#name_of_platform{
+    font-size: 2.5rem;
+    color: #555555;
+}

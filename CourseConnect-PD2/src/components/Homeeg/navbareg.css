@@ -1,0 +1,118 @@
+.eg-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+    position: static;
+    width: 100%;
+    background-color:'#141819';
+    /* position:fixed; */
+    height: 65px;
+    background-color: #141819;
+}
+
+.eg-logo img{
+    width: 45px;
+    border-radius: 50px;
+    mix-blend-mode: hard-light;
+}
+
+.eg-nav-items{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .eg-nav-items-link:hover{
+    color: #13aa52;
+  }
+
+  
+.eg-nav-btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.75rem;
+    color: white;
+}
+.eg-nav-btn a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 200ms;
+}
+.eg-nav-btn a:hover{
+    color: #13aa52;
+    transform: scale(1.05);
+}
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #13aa52;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    min-height: 40px;
+    min-width: 0;
+    outline: none;
+    /* padding: 16px 24px; */
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #fff;
+    background-color: #13aa52;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+  
+  @media screen and (max-width:560px) {
+    .eg-nav-btn{
+      font-size: 1.5rem;
+    }
+    .eg-logo img{
+      width: 30px;
+    }
+    .eg-nav-items{
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .eg-navbar{
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-width:280px){
+    .eg-logo img{
+      width: 25px;
+    }
+    .eg-nav-btn{
+      font-size: 1.15rem;
+    }
+  }
+
+
+
+  
