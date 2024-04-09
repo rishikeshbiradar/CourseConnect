@@ -10,13 +10,13 @@ CourseConnect is a powerful course recommendation system built using the MERN (M
 - **FastAPI Integration:** Utilizing FastAPI to enhance the efficiency and speed of handling backend processes.
 - **User Profiles:** Creating personalized user profiles to fine-tune recommendations based on individual learning goals.
 
-- ![Alt Text](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc1.png)
-- ![Alt Text](Image URL)
-- ![Alt Text](Image URL)
-- ![Alt Text](Image URL)
-- ![Alt Text](Image URL)
-- ![Alt Text](Image URL)
-- ![Alt Text](Image URL)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc1.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc2.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc3.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc4.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc5.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc6.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc7.png)
 
 
 
