@@ -1,0 +1,36 @@
+.downNav{
+    background: #141819;
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: static;
+}
+
+.explore_down{
+    font-size: 1.7rem;
+    width: 33.33%;
+    cursor: pointer;
+    font-weight: bold;
+    color: pink;
+}
+.explore_down img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.explore-down-link{
+    color: rgb(212, 13, 205);
+}
+
+@media screen and (max-width : 355px) {
+    .explore_down{
+        font-size: 1.25rem;
+    }
+    .explore_down img{
+        height: 20px;
+        margin-right: 2px;
+    }
+}

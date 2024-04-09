@@ -1,0 +1,27 @@
+.box-number{
+    background-color: white;
+    font-size: 2rem;
+    color: black;
+    border-radius:10px ;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.no-box{
+    color: white;
+    border-radius: 10px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: space-evenly;
+    padding: 2px;
+    font-weight: bold;
+    border: 0.5px solid rgba(255, 255, 255, 0.325);
+}

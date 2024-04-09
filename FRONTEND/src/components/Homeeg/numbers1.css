@@ -1,0 +1,33 @@
+.numbers1-no1 {
+  background: -webkit-linear-gradient(#f8144f, #d6a119);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* color: #FF0063; */
+  font-size: 4rem;
+  font-weight: bolder;
+  line-height: 50px;
+  padding-bottom: 5px;
+}
+.numbers1-text1{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0;
+    line-height: 5px;
+}
+.numbers1-subdiv{
+  padding-right: 100px;
+}
+
+@media screen and (max-width: 566px){
+  .numbers1-no1{
+    font-size: 3rem;
+  }
+  .numbers1-text1{
+    font-size: 1rem;
+  }
+  .numbers1-subdiv{
+    padding-right: 30px;
+  }
+}

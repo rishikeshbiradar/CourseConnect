@@ -1,0 +1,355 @@
+.HomeEg-wrapper {
+  background-color: white;
+  overflow-x: hidden;
+}
+
+.eg-home {
+  width: 100vw;
+  height: calc(100vh + 65px);
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  /* background-image: url('https://wallpapercave.com/wp/wp3469876.png');
+  background-size: cover;
+  background-repeat: no-repeat; */
+}
+.egHome-navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
+.eg-svg1 {
+  height: calc(100vh - 65px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0.35;
+}
+.eg-svg1 img {
+  mix-blend-mode: darken;
+}
+
+.eg-title {
+  flex: 0.55;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 65px; */
+}
+
+.eg-hero-title {
+  width: 100%;
+}
+.eg-hero-title h1 {
+  font-size: 4.25rem;
+  font-weight: 600;
+  color: #66bfbf;
+}
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes textAnimation {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+.eg-hero-title span {
+  font-size: 4.5rem;
+  font-weight: 600;
+  color: #ff0063;
+  border-radius: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.504);
+  background-image: url("./oval_border.png");
+  background-repeat: no-repeat;
+  box-shadow: rgba(255, 68, 0, 0.488) 0px 0px 5px;
+  animation-name: textAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  /* animation-direction: alternate-reverse; */
+}
+
+.eg-hero-desc {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.button-24 {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.button-24:hover,
+.button-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.button-24:active {
+  opacity: 0.5;
+}
+
+.eg-button-2 {
+  display: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.eg-numbers {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.scroll-btn img {
+  height: 20px;
+  animation-name: scrollAnimation;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.scroll-btn {
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 20px;
+  width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.scroll-btn-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 100px;
+  /* position: relative; */
+}
+
+.homeeg-copyright{
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+@keyframes scrollAnimation {
+  0% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+
+.eg-analysis {
+  height: calc(100vh+65px);
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.eg-piechart {
+  height: 100%;
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.eg-courses-info {
+  height: 40%;
+}
+
+.eg-courses-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.eg-courses-info img {
+  width: 250px;
+  height: 149.8px;
+}
+.course-name-no {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.course-name-no p {
+  width: 100%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 5px;
+}
+
+.eg-info-wrapper {
+  flex: 0.6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.abt-courses {
+  height: 50%;
+  font-size: 1.75rem;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+@media screen and (max-width: 1120px) {
+  .eg-home {
+    flex-direction: column-reverse;
+    margin-top: 65px;
+  }
+
+  .eg-hero-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .eg-hero-desc {
+    padding: 10px;
+  }
+  .eg-numbers {
+    justify-content: center;
+  }
+  .eg-svg1 img {
+    height: 400px;
+  }
+  .scroll-btn-wrapper {
+    display: none;
+  }
+  .eg-analysis {
+    height: calc(100vh+65px);
+    margin-top: 65px;
+  }
+
+  .eg-courses-info img {
+    width: 200px;
+  }
+  .course-name-no p {
+    font-size: 1.25rem;
+  }
+  .abt-courses {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 919px) {
+  .eg-analysis {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .HomeEg-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .abt-courses {
+    font-size: 1.5rem;
+  }
+  .eg-hero-title {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .eg-svg1 img {
+    height: 300px;
+  }
+  .eg-hero-title span {
+    font-size: 4rem;
+  }
+  .eg-hero-title h1 {
+    font-size: 3.75rem;
+  }
+  .eg-home {
+    margin-top: 100px;
+  }
+  .pie-div {
+    height: 35rem;
+    width: 35rem;
+  }
+  .eg-courses-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .eg-courses-info img {
+    width: 250px;
+  }
+
+  .course-name-no p {
+    text-align: center;
+  }
+  .abt-courses p {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .eg-piechart h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .eg-svg1 img {
+    height: 250px;
+  }
+  .eg-hero-title span {
+    font-size: 3rem;
+  }
+  .eg-hero-title h1 {
+    font-size: 2.75rem;
+  }
+  .eg-hero-desc {
+    font-size: 1.5rem;
+  }
+  .button-24{
+    font-size: 16px;
+  }
+
+}
+
+@media screen and (max-width:386px) {
+  .homeeg-copyright{
+    font-size: 1.15rem;}
+}

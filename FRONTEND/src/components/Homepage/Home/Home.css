@@ -1,0 +1,152 @@
+.logo-img img{
+    height: 300px;
+    mix-blend-mode: darken;
+}
+.logo-bar{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: bold;
+    color: #920783;
+    transform: rotate(-4deg);
+    letter-spacing: 2px;
+    filter: drop-shadow(16px 16px 20px rgb(22, 194, 145)) ;
+    /* background: linear-gradient(red,black); */
+}
+
+.count-boxes{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    /* padding: 30px; */
+}
+
+.middle_div_1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.middle_div_1 h1{
+    font-size: 3rem;
+}
+
+.middle_sec{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.extraLine{
+    height: 2px;
+    background-color: rgb(59, 56, 56);
+}
+
+.middle_div_2{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.homepage_about h2{
+    padding: 20px;
+    font-size: 1.9rem;
+    padding-bottom: 5px;
+    color: rgb(86, 84, 84);
+}
+.homepage_about p{
+    padding: 20px;
+    font-size: 1.7rem;
+    color: gray;
+}
+
+.courses_on_platform{
+    display: flex;
+    justify-content: space-evenly;
+}
+.courses_boxes_home:hover
+{
+    transform: scale(1.1);
+}
+
+.explore_button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.explore_button button{
+    border: 1px solid black;
+    width: 150px;
+    height: 50px;
+    font-size: 2rem;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 30px;
+}
+.explore_button button:hover{
+    color: rgb(0, 153, 255);
+    background-color: white;
+}
+.homepage_main{
+    display: flex;
+    flex-direction: column;
+}
+
+.homepage_tail{
+    background-color: gray;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.homepage_scroll{
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height: 30px;
+    align-items: center;
+}
+
+.homepage_scroll_subdiv1{
+    white-space: nowrap;
+    margin: 0 2em;
+}
+
+.homepage_scroll_subdiv1 div{
+    display: flex;
+    gap: 2em;
+}
+
+.homepage_scroll_subdiv1 p{
+    font-size: 2rem;
+    color: rgb(75, 72, 72);
+    margin-bottom: 0;
+    line-height: 10px;
+    font-weight: bold;
+}
+
+.rightToLeft{
+    animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes RightToLeft {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translate(-50%);
+    }
+}

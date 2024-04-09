@@ -1,0 +1,58 @@
+.images-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 60px;
+
+}
+
+.images-list-items{
+    height: 50px;
+}
+
+.updates-nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.updates-nav ul li{
+    padding: 10px 45px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.updates-nav ul li:hover{
+    color: blue;
+}
+
+.updates{
+    width: 450px;
+    
+}
+.images-div img{
+    height: 85px;
+}
+
+.updates-main{
+    display: flex;
+    justify-content: center;
+    padding-left:50px ;
+    overflow-y: scroll;
+    height: 300px;
+    overflow: scroll;
+}
+.updates-main ul{
+    list-style: inside;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.5rem;
+    color: rgb(86, 84, 84);
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
