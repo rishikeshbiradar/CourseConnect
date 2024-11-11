@@ -11,12 +11,11 @@ CourseConnect is a powerful course recommendation system built using the MERN (M
 - **User Profiles:** Creating personalized user profiles to fine-tune recommendations based on individual learning goals.
 
 - ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/Categorical%20search%20(Quick%20Search).png)
-- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc2.png)
-- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc3.png)
-- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc4.png)
-- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc5.png)
-- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc6.png)
-- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/cc7.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/Course%20Comparison%20based%20on%20different%20parameters.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/Course%20Details%20and%20Discription.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/Landing%20and%20Introduction%20Page.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/Platform%20Overview%20Page.png)
+- ![Website Images](https://github.com/rishikeshbiradar/CourseConnect/blob/main/WEBSITE%20IMAGES/Recommended%20Courses%20based%20search%20query..png)
 
 
 
